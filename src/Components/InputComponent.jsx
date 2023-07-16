@@ -16,6 +16,7 @@ export const InputComponent = ({dispatch}) => {
             setErrorHelperText(null);
             dispatch(postNewTask(title));
             setTitle('');
+            
         }
     }
     return (

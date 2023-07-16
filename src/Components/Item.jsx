@@ -70,6 +70,7 @@ export const Item= ({id, isCompleted, title, description, dispatch}) => {
                                 minRows={4}
                                 fullWidth
                                 variant='outlined'
+                                value={taskDescription}
                                 onChange={(e) => setTaskDescription(e.target.value)}
                                 />
                             </Grid>
